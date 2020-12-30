@@ -1,7 +1,7 @@
 all: build
 
 build:
-	docker build . -t bloomapi/letsencrypt-gcloud-balancer:latest
+	docker build . -t nibbleservices/letsencrypt-gcloud-balancer:latest
 
 push: build
-	docker push bloomapi/letsencrypt-gcloud-balancer:latest
+	docker push nibbleservices/letsencrypt-gcloud-balancer:latest
